@@ -1,0 +1,1021 @@
+body {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Abel";
+    src: url(Abel-Regular.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: "Aleo";
+    src: url(Aleo-VariableFont_wght.ttf)format("truetype");
+}
+
+.img-foot[hidden] {
+    display: flex;
+}
+
+img[hidden] {
+    display: block;
+}
+
+a[hidden] {
+    display: block;
+}
+.menu-img[hidden]{
+    display: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 96px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    justify-content: space-between;
+    padding-right: 104px;
+}
+.header a {
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    color: #000D40;
+    
+}
+.header a {
+
+    transition: color 0.3s ease; 
+  }
+  
+  
+  .header a:hover {
+    color: #129AFE;
+   
+  }
+  
+  .header a:hover {
+    font-size: 18px;
+   
+    transition: font-size 0.3s ease; 
+  }
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    width: 494px;
+    height: 48px;
+    gap: 40px;
+
+    font-size: 16px;
+    font-family: "Abel";
+
+
+
+}
+
+.logo {
+    display: flex;
+    margin-left: 104px;
+}
+
+.three-links {
+    display: flex;
+    gap: 60px;
+}
+
+.en-globe {
+    display: flex;
+    gap: 8px;
+    font-family: "Abel";
+    color: #129AFE;
+
+}
+
+.globe {
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    gap: 40px;
+}
+
+.gap {
+    display: flex;
+    gap: 25px;
+    width: 350px;
+}
+
+.header button {
+    background-color: #FFFFFF;
+    border: 1px solid #129AFE;
+    width: 119px;
+    height: 48px;
+    padding: 11.5px, 28px, 11.5px, 28px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: "Abel";
+    color: #129AFE;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+
+
+}
+
+
+
+main {
+    height: 100%;
+}
+
+
+.squere-1 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-1 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-1 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-1 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.search-input img {
+    position: absolute;
+    padding-right: 550px;
+    padding-top: 20px;
+}
+
+.squere-2 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-2 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-2 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-2 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.squere-3 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-3 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-3 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-3 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.squere-4 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-4 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-4 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-4 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.squere-5 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-5 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-5 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.squere-5 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.squere-6 {
+    width: 395px;
+    height: 240px;
+    background: #FAFBFC;
+
+}
+
+.squere-6 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.squere-6 p {
+    width: 315px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #129AFE;
+}
+
+.squere-6 button {
+    border: none;
+    text-decoration: none;
+    margin-left: 34px;
+    background-color: #FAFBFC;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 14px;
+    color: #129AFE;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.vec-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.squere-1 img {
+    margin-top: 14px;
+
+}
+
+.squere-2 img {
+    margin-top: 14px;
+
+}
+
+.squere-3 img {
+    margin-top: 14px;
+
+}
+
+.squere-4 img {
+    margin-top: 14px;
+
+}
+
+.squere-5 img {
+    margin-top: 14px;
+
+}
+
+.squere-6 img {
+    margin-top: 14px;
+
+}
+
+.h1_1 {
+    margin-top: 142px;
+    font-family: "Abel";
+    font-family: Abel;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.link-text {
+    margin-top: 40px;
+    font-family: "Abel";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 840px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.search-input {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.search-input input[type="text"] {
+    width: 540px;
+    height: 56px;
+    border-radius: 40px;
+    border: 1px solid #129AFE;
+    padding-left: 48px;
+    font-family: "Abel";
+}
+
+.search-input button {
+    position: absolute;
+    margin-left: 500px;
+    top: 0;
+    background-color: #129AFE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 102px;
+    height: 60px;
+    padding: 15.5px, 28px, 15.5px, 28px;
+    border-radius: 100px;
+    gap: 8px;
+    font-family: "Abel";
+
+}
+
+.search-input select {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border: 1px solid #129AFE;
+    border-top: none;
+    display: none;
+    font-family: "Abel";
+}
+
+.search-input select:focus {
+    display: block;
+}
+
+.emoji {
+    margin-top: 160px;
+    display: flex;
+    margin: auto;
+    padding-top: 160px;
+}
+
+.faq {
+    margin-top: 24px;
+    font-family: "Abel";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+hr.solid1 {
+    border-top: 0.5px solid #E9EEF2;
+    width: 814px;
+    margin-top: 32px;
+    margin-bottom: 37px;
+
+}
+
+.faq-questions {
+    padding-top: 30px;
+    width: 814px;
+    height: 750px;
+    margin: auto;
+
+}
+
+.faq-questions p {
+    font-family: "Abel";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000D40;
+
+
+}
+
+.faq-questions h2 {
+    font-family: "Abel";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #129AFE;
+
+
+}
+
+.h3-faq {
+    font-family: "Abel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C6485;
+    margin-top: 16px;
+
+
+}
+
+footer {
+    height: 1156px;
+}
+
+
+.img-footer {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 163px;
+}
+
+.img-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.large-half-ellipse {
+    background-color: #000D40;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.g-img {
+    margin-left: 500px;
+    position: absolute;
+    top: 2500px;
+}
+
+.answer {
+    margin: auto;
+    color: white;
+    width: 593px;
+    height: 128px;
+    font-family: "Abel";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.contact-fot {
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #129AFE;
+    color: #FFFFFF;
+    border: 0;
+    font-family: "Abel";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+
+}
+
+.info-footer {
+    width: 100%;
+    height: 447px;
+    background-color: #000D40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.all-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 104px;
+}
+
+.logo-footer {
+    width: 194px;
+    height: 33px;
+    margin-top: 31px;
+
+}
+
+.gl-eng {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.design {
+    margin-top: 24px;
+    color: #FFFFFF;
+    font-family: "Aleo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.eng {
+    color: #FFFFFF;
+    font-family: "Abel";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.pr {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+
+.hey {
+    color: #5C6485;
+    font-family: "Abel";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.privacy {
+    color: #FFFFFF;
+    font-family: "Abel";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.fe {
+
+    margin-top: 43px;
+    color: white;
+}
+
+.fe p {
+    font-family: "Aleo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fe-pages {
+    display: flex;
+    gap: 47px;
+}
+
+
+.fe h3 {
+    font-family: "Aleo";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pages {
+
+    margin-top: 43px;
+    color: white;
+}
+
+.pages p {
+    font-family: "Aleo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pages h3 {
+    font-family: "Aleo";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.footer-input {
+    margin-top: 43px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 104px;
+}
+
+.footer-input img {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-input h3 {
+    font-family: "Aleo";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fot-input {
+    position: relative;
+    display: inline-block;
+}
+
+.fot-input {
+
+    height: 56px;
+
+}
+
+.fot-input input[type="text"] {
+    width: 373px;
+    height: 44px;
+    border-radius: 40px;
+    border: 1px solid #129AFE;
+    padding-left: 48px;
+    font-family: "Abel";
+    background-color: #000D40;
+}
+
+
+.fot-input button {
+    position: absolute;
+    right: 0px;
+
+    background-color: #129AFE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 119px;
+    height: 48px;
+    padding: 15.5px, 28px, 15.5px, 28px;
+    border-radius: 100px;
+    gap: 8px;
+    font-family: "Abel";
+
+}
+
+.img-foot {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 8px;
+}
+
+.another {
+    color: #129AFE;
+}
+
+.header button:hover {
+    background-color: #129AFE;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.squere-1 button:hover,
+.squere-2 button:hover,
+.squere-3 button:hover,
+.squere-4 button:hover,
+.squere-5 button:hover,
+.squere-6 button:hover {
+    background-color: #129AFE;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-fot:hover {
+    background-color: #FFFFFF;
+    color: #129AFE;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.fot-input button:hover {
+    background-color: #129AFE;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.link-text:hover {
+    background-color: #129AFE;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+#search-options option {
+    background-color: white;
+    width: 343px;
+    height: 24px;
+    color: black;
+}
+
+.custom-dropdown {
+    width: 600px;
+    position: absolute;
+    margin-top: 60px;
+    height: 400px;
+    
+}
+
+#dropdown-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+#dropdown-options .li {
+    padding: 20px;
+    color: black;
+    cursor: pointer;
+    border: 1px;
+    font-family: "Abel"
+}
+.see-more{
+    color: #129AFE;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px;
+    font-family: "Abel"
+}
